@@ -63,6 +63,6 @@ The website offers **intuitive navigation**, an **aesthetic design**, and **well
 ## 🚀 Installation & Usage
 1. Clone the repository:  
    bash:
-   git clone https://github.com/MoKhalilNafati/tunisia-history-website.git
+   git clone https://github.com/AhMeD-KhaTmi/tunisia-history-website.git
 2. Open the index.html file in your preferred web browser.
 3. Navigate through the pages to explore different civilizations.
