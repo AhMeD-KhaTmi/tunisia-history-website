@@ -1,0 +1,498 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fdf5e6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #5a3d1e;
+    color: black;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+.cap h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 90px;
+    -webkit-text-stroke: 5px black;
+
+    margin: 0.5em 0;
+}
+.cart h1 {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;    font-size: 2.8em;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 90px;
+    margin: 0.5em 0;
+    -webkit-text-stroke: 5px black;
+
+}
+
+header .cap{
+    position: relative;
+    background-image: url(cap.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    height: 300px;
+}
+header .mus{
+    position: relative;
+    background-image: url(isl.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    height: 300px;
+}
+.pres{
+    width: 700px;
+    height: 500px;
+
+}
+header .cart{
+    position: relative;
+    background-image: url(cart.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    height: 300px;
+}
+header .romanie{
+    position: relative;
+    background-image: url(rome.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+    height: 300px;
+}
+
+.event {
+    background-color: #c7b182d2;
+    margin: 50px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.event h2 {
+    color: #000000;
+    font-size: 19px;
+
+}
+.event p {
+    margin: 5px 0;
+}
+.section h3{
+    font-size: 24px;
+    font-style: italic;
+    margin: 25px;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #5a3d1e;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em 2em;
+    color: #fdf5e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #8a4b08;
+}
+
+
+/* Main Content Styles */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+
+section h2 {
+    color: #5a3d1e;
+    text-transform: uppercase;
+    border-bottom: 2px solid #8a4b08;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+section img {
+    width: 100%;
+    max-height: 100%;
+    height: 20cm;
+    object-fit: cover;
+    margin-top: 1em;
+    border: 5px solid #5a3d1e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Aside (Google Maps Section) */
+aside {
+    background-color: #f4e3c1;
+    padding: 1.5em;
+    border-left: 5px solid #8a4b08;
+    margin-top: 2em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #8a4b08;
+    color: white;
+}
+
+footer a {
+    color: #ffb347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(82, 60%, 28%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 0%, 100%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1120px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== CARD ===============*/
+.container {
+    width: 100%; /* Make the grid container take up the section's width */
+    display: grid;
+    place-items: center;
+    padding-block: 5rem;
+    
+  }
+
+  .card__container {
+    display: grid;
+  }
+
+.card__article {
+  position: relative;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 328px;
+  border-radius: 1.5rem;
+}
+
+.card__data {
+  width: 280px;
+  background-color: var(--container-color);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card__description {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.card__title {
+  font-size: var(--h2-font-size);
+  font-weight: 500;
+  color: var(--title-color);
+  margin-bottom: .75rem;
+}
+
+.card__button {
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: var(--first-color);
+}
+
+.card__button:hover {
+  text-decoration: underline;
+}
+
+/* Naming animations in hover */
+.card__article:hover .card__data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.card__article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+  50% {
+    overflow: hidden;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .card__data {
+    width: 250px;
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+    .card-section {
+      max-width: 80%; /* Further limit the section width for larger screens */
+    }
+  
+    .container {
+      height: auto; /* Allow the grid container to adjust to content height */
+    }
+  
+    .card__container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+.clearfix::after {  
+    content: "";  
+    clear: both;  
+    display: table;  
+  }  
+  .card-section {
+    max-width: 90%; /* Control the section width */
+    margin: 0 auto; /* Center the section horizontally */
+    padding: 2rem 0; /* Add spacing around the section */
+  }
+}
+#you {
+    position: relative;
+}
+
+/* Style the dropdown menu */
+#you .dropdown {
+    display: none; /* Hidden by default */
+    position: absolute;
+    top: 100%; /* Position it below the parent li */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    list-style: none;
+    z-index: 10;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: max-content;
+}
+
+/* Style the links inside the dropdown */
+#you .dropdown li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+    display: block;
+    white-space: nowrap;
+}
+
+/* Hover effect for dropdown items */
+#you .dropdown li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show the dropdown on hover */
+#you:hover .dropdown {
+    display: block;
+}
+.logo {
+  position: absolute; /* Enables precise positioning */
+  top: 10px;          /* Distance from the top of the page */
+  left: 10px;         /* Distance from the left side */
+  width: 100px;       /* Adjust the logo size */
+  height: auto;       /* Maintain aspect ratio */
+  z-index: 1;
+}
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #f9c846; /* Or */
+  color: #1b263b; /* Bleu profond */
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.5em;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+footer img{
+  width: 40px; /* Adjust size */
+  height: 40px; /* Maintain a square shape */
+  border-radius: 50%; /* Make the images circular */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+  object-fit: cover; /* Ensure the images fill the circular container */
+}
+
+footer .social-icons a:hover {
+  background-color: #ffffff; /* Blanc */
+  color: #1b263b; /* Bleu profond */
+  transform: scale(1.2); /* Agrandissement au survol */
+}   
